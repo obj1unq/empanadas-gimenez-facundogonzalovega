@@ -13,7 +13,7 @@ object galvan {
 
 object baigorria {
   var sueldo = 0
-  var vendidas = 0
+  var vender = 0
 
   method sueldo() {
     return sueldo
@@ -24,17 +24,17 @@ object baigorria {
   }
 
   method vender() {
-    return vendidas
+    return vender
   }
   
   method vender(_vender) {
-    vendidas = _vender
+    vender = _vender
   }
 
 }
 
-object gimenez {
+/*object gimenez {
     method pagarSueldo {
-        var fondo = 300000
+        fondo = 300000
     }
-}
+}*/
