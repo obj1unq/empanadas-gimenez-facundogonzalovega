@@ -1,0 +1,7 @@
+import empleados.*
+describe "puntoUno" {
+    test "vender empanadas" {
+      baigorria.vender(300)
+      assert.equals(0, baigorria.sueldo)
+    }
+}
